@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>
+            javascriptのテストページ
+        </title>
+        <script type='text/javascript' src='js-sample.js'></script>
+    </head>
+    <body>
+        javascriptのテストページ<br><br>
+
+        ■自分のドメイン名を取得するJavaScript<br>
+        <script language="JavaScript">
+            if (document.domain == "localhost") {
+                document.write("ドメイン名：" + document.domain);
+            }
+        </script>
+
+        <br><br>
+        ■textareaに入力された文字列数をカウントするJavaScript<br>
+        <textarea cols="24" rows="3" onkeyup="ShowLength(value);"></textarea>
+        <p id="inputlength">0文字</p>
+    </body>
+</html>
