@@ -6,7 +6,7 @@
         </title>
     </head>
     <body>
-        phpのテストページ<br><br>
+        <font size="5">phpのテストページ</font>　<a href="/">メニューページに戻る</a><br><br>
 
         <?php
             // 年月日の関数を使用するサンプル
